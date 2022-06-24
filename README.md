@@ -47,7 +47,8 @@ Run Dataset_preprocessing.ipynb with each of the raw data sets.
 
 ### Running examples
 ```
-python SCStory_public.py
+python SCStory.py
+(or python SCStory.py --param_name param_value)
 
 Parameters parsed: Namespace(aug_batch=128, batch=128, begin_date='2014-01-02', dataset='News14', dropou, thred=0.5, true_story=True, window_size=7)
 Current cuda device - 1 NVIDIA RTX A6000
